@@ -4,4 +4,43 @@ body {
 
 h1 {
     font-size: 55px;
+    color: grey;
+}
+
+.orange-color {
+    color: orange;
+}
+
+img {
+    border-radius: 50%;
+    max-height: fit-content;
+    border-width: 8px solid;
+    border-color: grey;
+}
+
+section {
+    display: flex;
+    padding: 10px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    padding: 30px 10px;
+}
+
+.bid-me {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(tomato, orange);
+}
+
+.bid-me-button {
+    padding-left: 3%;
 }
