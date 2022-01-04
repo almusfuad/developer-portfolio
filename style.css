@@ -24,6 +24,7 @@ img {
 /* } */
 
 #cartoon-pic {
+    width: 400px;
     border-radius: 50%;
     max-height: fit-content;
     border-width: 8px solid;
@@ -62,6 +63,7 @@ img {
 }
 
 .hire-me-button {
+    border-top: 20px;
     padding-left: 0;
 }
 
@@ -75,11 +77,52 @@ img {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 75px;
+    background-size: 100px;
     border-bottom: 50px solid white;
 }
 
 #dream-big-para {
     padding-left: 0;
     padding-right: 10%;
+}
+
+.experience-area {
+    padding-left: 4%;
+    border-bottom: 70px solid white;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 120px;
+}
+
+.institute-name {
+    font-size: 18px;
+    font-stretch: expanded;
+    color: tomato;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.experience-item {
+    box-shadow: 8px 8px 50px thistle;
+    width: fit-content;
+    margin-right: 3%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 1%;
+    border-left: 5px solid tan;
+    border-radius: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+
+#footer-span {
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
 }
